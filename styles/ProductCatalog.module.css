@@ -1,12 +1,10 @@
-/* Arquivo: styles/ProductCatalog.module.css */
-
 .container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #c7cace; /* Um tom de cinza bem claro para o fundo da página */
-  border-radius: 8px; /* Levemente arredondado */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar o container */
+  background-color: #c7cace;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .title {

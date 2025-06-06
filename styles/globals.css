@@ -1,15 +1,11 @@
-/* Arquivo: styles/globals.css */
-
-/* ... outros estilos globais que já estão aqui ... */
-
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* Adiciona o fundo para todo o site */
-  background-color: #c7cace; /* Um cinza muito suave para o fundo global */
+
+  background-color: #c7cace;
 }
 
 a {

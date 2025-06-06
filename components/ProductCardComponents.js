@@ -9,7 +9,7 @@ function ProductCard(props) {
         <img
           src={image}
           alt={name}
-          width="180" // 'width' e 'height' como strings para compatibilidade com <img>
+          width="180"
           height="180"
           className="card-img-top mx-auto mt-3"
           style={{ objectFit: "contain" }}
