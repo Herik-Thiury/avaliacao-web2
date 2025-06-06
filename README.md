@@ -64,15 +64,15 @@ Neste projeto, optamos por utilizar as tags HTML padrão (`<a>` e `<img>`) em al
 * `@next/next/no-html-link-for-pages`: Avisa sobre o uso de `<a>` para navegação interna.
 * `@next/next/no-img-element`: Avisa sobre o uso de `<img>` em vez de `<Image />` otimizado.
 
-Estes avisos **não impedem o funcionamento** da aplicação e servem como um lembrete das melhores práticas de otimização do Next.js. O projeto foi desenvolvido de forma a ser funcional e atender aos requisitos da atividade mesmo com a presença desses avisos.
+Estes avisos **não impedem o funcionamento** da aplicação e servem como um lembrete das melhores práticas de otimização do Next.js. [cite_start]O projeto foi desenvolvido de forma a ser funcional e atender aos requisitos da atividade mesmo com a presença desses avisos.
 
 ## Critérios de Avaliação Atendidos
 
-* [cite_start]**Consumo da API**: Utilização de `fetch` em `getStaticProps` para consumir dados.
-* [cite_start]**Componentização**: Criação de componentes reutilizáveis (`Header`, `ProductCardComponents`).
-* [cite_start]**Apresentação dos dados**: Exibição clara e organizada de nome, imagem, preço, e categoria.
-* [cite_start]**Estilização e Responsividade**: Interface com estilização básica e adaptada a diferentes dispositivos.
-* [cite_start]**Tratamento de erros e Carregamento**: Implementação de mensagens de erro e carregamento condicional.
-* [cite_start]**Código limpo e boas práticas**: Organização do código e uso de nomes descritivos.
+* **Consumo da API**: Utilização de `fetch` em `getStaticProps` para consumir dados. [cite_start]Tratamento correto da resposta da API.
+* [cite_start]**Componentização**: Criação de componentes reutilizáveis (`Header`, `ProductCardComponents`) para estruturar a aplicação.
+* **Apresentação dos dados**: Exibição clara e organizada dos dados na interface. [cite_start]Utilização de imagens, preços e categorias.
+* [cite_start]**Estilização e Responsividade**: Interface esteticamente agradável e responsiva, adaptada a diferentes dispositivos.
+* [cite_start]**Tratamento de erros e Carregamento**: Implementação de mensagens de erro e carregamento enquanto os dados estão sendo buscados.
+* [cite_start]**Código limpo e boas práticas**: Organização do código, uso de nomes descritivos, e ausência de código desnecessário.
 
 ---
