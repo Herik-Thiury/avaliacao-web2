@@ -3,6 +3,7 @@ import ProductCard from "../components/ProductCardComponents";
 import Header from "../components/Header";
 import productCatalogStyles from "../styles/ProductCatalog.module.css";
 
+
 export default function Home({ products, error }) {
   return (
     <>
